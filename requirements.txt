@@ -1,6 +1,5 @@
 boto3==1.26.83
 botocore==1.29.83
-certifi @ file:///croot/certifi_1671487769961/work/certifi
 Cython==0.29.33
 jmespath==1.0.1
 joblib==1.2.0
@@ -15,6 +14,5 @@ s3transfer==0.6.0
 scikit-learn==1.0.2
 scipy==1.7.3
 six==1.16.0
--e git+https://github.com/CenterForMedicalGeneticsGhent/svtk@52270d1ee5f50edd0d8f8c77ae11c8a788318b52#egg=svtk
 threadpoolctl==3.1.0
 urllib3==1.26.14
