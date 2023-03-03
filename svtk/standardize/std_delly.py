@@ -79,7 +79,9 @@ class DellyStandardizer(VCFStandardizer):
         std_rec.info['CHR2'] = chr2
 
         # Add SVLEN
-        if std_rec.chrom == std_rec.info['CHR2']:
+        if svtype == 'INS' and 'SVLEN' in raw_rec.info.keys():
+            std_rec.info['SVLEN'] = raw_rec.info['SVLEN']
+        elif std_rec.chrom == std_rec.info['CHR2']:
             std_rec.info['SVLEN'] = std_rec.stop - std_rec.pos
         else:
             std_rec.info['SVLEN'] = -1

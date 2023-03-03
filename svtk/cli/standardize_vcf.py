@@ -87,7 +87,6 @@ def main(argv):
     # Tag source in header
     meta = '##FORMAT=<ID={0},Number=1,Type=Integer,Description="Called by {1}">'
     meta = meta.format(args.source, args.source.capitalize())
-    print(meta)
     header.add_line(meta)
     header.add_line('##source={0}'.format(args.source))
 
