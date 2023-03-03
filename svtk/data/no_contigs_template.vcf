@@ -17,4 +17,4 @@
 ##FORMAT=<ID=DR,Number=1,Type=Integer,Description="Number of reference pairs spanning breakpoint">
 ##FORMAT=<ID=SR,Number=1,Type=Integer,Description="Number of supporting split reads">
 ##FORMAT=<ID=RR,Number=1,Type=Integer,Description="Number of reference reads spanning breakpoint">
-#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
