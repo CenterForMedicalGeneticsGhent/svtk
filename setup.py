@@ -32,5 +32,6 @@ setup(
         'natsort',
         'boto3',
         'pandas',
+        'scikit-learn'
     ]
 )
